@@ -7,6 +7,7 @@ showAsResourcePack=false
 [[mods]]
     modId="puddingcraft"
     version="${file.jarVersion}"
+    displayName="PuddingCraft"
     displayURL="https://github.com/ekaj113/puddingcraft"
     authors="Avery and The Earl of Pudding"
     description="Pudding, do you really need anything else?"
