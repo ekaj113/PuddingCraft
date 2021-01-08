@@ -1,0 +1,26 @@
+modLoader="javafml"
+license="GNU GPL-3.0"
+loaderVersion="[35,)"
+issueTrackerURL="https://github.com/ekaj113/puddingcraft/issues"
+showAsResourcePack=false
+
+[[mods]]
+    modId="puddingcraft"
+    version="${file.jarVersion}"
+    displayURL="https://github.com/ekaj113/puddingcraft"
+    authors="Avery and The Earl of Pudding"
+    description="Pudding, do you really need anything else?"
+
+    [[dependencies.puddingcraft]]
+        modId="forge"
+        mandatory=true
+        versionRange="[35,)"
+        ordering="NONE"
+        side="BOTH"
+
+    [[dependencies.puddingcraft]]
+        modId="minecraft"
+        mandatory=true
+        versionRange="[1.16.4]"
+        ordering="NONE"
+        side="BOTH"
