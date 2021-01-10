@@ -20,6 +20,7 @@ public class OurItems {
     // Blocks
     public static final RegistryObject<Item> CRAFTING_BLOCK = ITEMS.register("crafting_block", () -> new BlockItem(OurBlocks.CRAFTING_BLOCK.get(), itemProperties()));
 
+    // Properties used by PuddingCraft
     public static Item.Properties itemProperties() {
         return new Item.Properties().group(PuddingCraft.creativeTab);
     }
