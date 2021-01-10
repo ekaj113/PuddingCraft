@@ -1,5 +1,7 @@
 {
   "itemGroup.puddingcraft": "Pudding Tab",
 
-  "item.puddingcraft.pudding_item": "Pudding"
+  "item.puddingcraft.pudding_item": "Pudding",
+
+  "block.puddingcraft.crafting_block": "Crafting Block"
 }

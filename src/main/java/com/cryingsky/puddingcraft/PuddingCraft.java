@@ -19,7 +19,7 @@ public class PuddingCraft {
     public static ItemGroup creativeTab = new ItemGroup(Reference.MODID) {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(OurItems.PUDDING.get());
+            return new ItemStack(OurItems.PUDDING_ITEM.get());
         }
     };
 
