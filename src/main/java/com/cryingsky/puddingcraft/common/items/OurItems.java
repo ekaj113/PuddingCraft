@@ -15,6 +15,7 @@ public class OurItems {
 
     // Items
     public static final RegistryObject<Item> PUDDING_ITEM = ITEMS.register("pudding_item", PuddingItem::new);
+    public static final RegistryObject<Item> PUDDING_EDIBLE_ITEM = ITEMS.register("pudding_edible_item", PuddingItem::new);
 
     // Blocks
     public static final RegistryObject<Item> CRAFTING_BLOCK = ITEMS.register("crafting_block", () -> new BlockItem(OurBlocks.CRAFTING_BLOCK.get(), itemProperties()));
