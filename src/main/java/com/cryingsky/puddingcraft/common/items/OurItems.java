@@ -14,8 +14,8 @@ public class OurItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MODID);
 
     // Items
-    public static final RegistryObject<Item> PUDDING_ITEM = ITEMS.register("pudding_item", PuddingItem::new);
-    public static final RegistryObject<Item> PUDDING_EDIBLE_ITEM = ITEMS.register("pudding_edible_item", PuddingItem::new);
+    public static final RegistryObject<Item> PUDDING_ITEM = ITEMS.register("pudding", PuddingItem::new);
+    public static final RegistryObject<Item> WEED_PUDDING_ITEM = ITEMS.register("weed_pudding", WeedPuddingItem::new);
 
     // Blocks
     public static final RegistryObject<Item> CRAFTING_BLOCK = ITEMS.register("crafting_block", () -> new BlockItem(OurBlocks.CRAFTING_BLOCK.get(), itemProperties()));
